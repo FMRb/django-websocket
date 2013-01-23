@@ -1,0 +1,14 @@
+#!/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python
+
+import sys
+sys.path[0:0] = [
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket/eggs/mr.developer-1.23-py2.7.egg',
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket/eggs/zc.buildout-1.6.3-py2.7.egg',
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket/eggs/setuptools-0.6c12dev_r88846-py2.7.egg',
+    ]
+
+
+import mr.developer.develop
+
+if __name__ == '__main__':
+    sys.exit(mr.developer.develop.develop())

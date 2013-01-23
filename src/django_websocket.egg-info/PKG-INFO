@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-websocket
+Version: 1.0
+Summary: Example of websocket using the library gevent-socket.
+Home-page: http://github.com/FMRb/django-websocket
+Author: Felix Rubio
+Author-email: UNKNOWN
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN

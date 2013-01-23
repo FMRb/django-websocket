@@ -1,0 +1,16 @@
+#!/Library/Frameworks/Python.framework/Versions/2.7/Resources/Python.app/Contents/MacOS/Python
+
+import sys
+sys.path[0:0] = [
+    '/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/site-packages',
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket/eggs/djangorecipe-1.3-py2.7.egg',
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket/eggs/zc.recipe.egg-1.3.2-py2.7.egg',
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket/eggs/zc.buildout-1.6.3-py2.7.egg',
+    '/Users/felixrubiogallego-preciados/Developer/Django/Django_projects/websocket-assignment/django_websocket',
+    ]
+
+
+import djangorecipe.manage
+
+if __name__ == '__main__':
+    sys.exit(djangorecipe.manage.main('websocketaproject.settings'))
